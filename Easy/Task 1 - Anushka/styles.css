@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Poppins', Arial, sans-serif;
-    background-color: #e7ddf1; /* Soft Warm Gray */
+    background-color: #e7ddf1;
     
     display: flex;
     justify-content: center;
@@ -18,7 +18,7 @@ body {
 
 /* Container for the form */
 .container {
-    background: #FFFFFF; /* Clean White */
+    background: #FFFFFF; 
     padding: 2rem;
     border-radius: 12px;
     box-shadow: 0px 5px 15px rgba(166, 130, 188, 0.2);
@@ -29,7 +29,7 @@ body {
 /* Form heading */
 h1 {
     font-size: 1.8rem;
-    color: #7469a2; /* Muted Orchid */
+    color: #7469a2; 
     margin-bottom: 1rem;
     font-weight: bold;
     text-shadow: 0 0 6px rgba(118, 84, 138, 0.2);
@@ -43,7 +43,7 @@ h1 {
     border: none;
     border-radius: 8px;
     font-size: 1rem;
-    background: #E3E2DF; /* Soft Taupe */
+    background: #E3E2DF; 
     color: #3E3E3E;
     outline: none;
     border: 1px solid rgba(166, 130, 188, 0.3);
@@ -51,7 +51,7 @@ h1 {
 }
 
 .form input::placeholder {
-    color: #A6A6A6; /* Muted Gray */
+    color: #A6A6A6; 
 }
 
 .form input:focus {
@@ -88,7 +88,7 @@ p {
 
 a {
     text-decoration: none;
-    color: #F4A261; /* Muted Peach */
+    color: #F4A261; 
     font-weight: bold;
 }
 
