@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url('images.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333;
+  }
+  
+  header {
+    background-color: #a3b1a4; 
+    color: #34495e;
+    padding: 20px;
+    text-align: center;
+  }
+
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+    position: relative;
+  }
+  
+  nav ul li a {
+    color: #3c5064;
+    text-decoration: none;
+    padding: 12px 25px;
+    font-size: 18px;
+    display: block;
+    transition: background-color 0.3s, transform 0.3s;
+    border-radius: 8px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #4a5759;
+    color: rgb(255, 255, 255);
+    transform: scale(1.05);
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f8f8f8;
+    min-width: 180px;
+    z-index: 1;
+    border-radius: 8px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: #34495e;
+    transition: background-color 0.3s;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #4a5759;
+    color: white;
+  }
+  
+  main {
+    padding: 50px 20px;
+  }
+  
+  .journal-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .today-entry {
+    background-color: #f2dfe4; 
+    padding: 20px;
+    width: 60%;
+    box-shadow: 0 4px 8px #7a6e6e;
+    border-radius: 12px;
+    text-align: center;
+  }
+  
+  .today-entry h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color:#4a5759;
+  }
+  
+  .today-entry textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #a3b1a4;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+    background-color: #dfc6cc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    background-color:#a3b1a4;
+    color: #34495e;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border-top: 1px solid rgba(200, 200, 200, 0.5);
+  }
+
+ 
